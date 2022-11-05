@@ -61,6 +61,12 @@
                             class="btn btn-danger"
                             >
                             Excluir
+                            </a>
+                            <a 
+                            href="perfil.php?id=<?=$usuario['id']; ?>"
+                            class="btn btn-primary"
+                            >
+                            Perfil
                         </a>
                         </td>
                     </tr>
